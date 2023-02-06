@@ -1,5 +1,5 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -29,6 +29,9 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+img {
+  margin-left: -16px;
+}
 
 .weather-app-wrapper {
   max-width: 600px;
@@ -46,9 +49,9 @@ li:first-letter {
 }
 
 .weather-temperature img {
-  margin-right: 5px;
-  height: 80px;
-  width: 80px;
+  position: relative;
+  margin-top: -20px;
+  margin-right: -10px;
 }
 
 .weather-temperature strong {
